@@ -31,9 +31,12 @@ $b = query("SELECT * FROM buku WHERE id = $id");
   <h3 style="width:100%; text-align:center; padding-top: 100px;">Detail Buku</h3>
   <ul>
     <img src="img/<?= $b['gambar']; ?>" width="150px">
-    <li><?= $b['judul']; ?></li>
-    <li><?= $b['deskripsi']; ?></li>
-    <li><?= $b['detail']; ?></li>
+    <br>
+    <?= $b['judul']; ?>
+    <br>
+    <?= $b['deskripsi']; ?>
+    <br>
+    <?= $b['detail']; ?>
 
     <button style="background-color:aqua ; border:0.5px solid black;">
       <a style="color:black ;" href="ubah.php?id=<?= $b['id']; ?>">Ubah</a>
