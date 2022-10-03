@@ -32,7 +32,7 @@ if (isset($_POST['cari'])) {
 
 </head>
 
-<body style="background-color:#D8D8D8;">
+<body style="background-color:#CDF0EA;">
   <header class="nav">
     <a><i>Store Book</i></a>
   </header>
