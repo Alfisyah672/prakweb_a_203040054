@@ -32,7 +32,7 @@ if (isset($_POST['cari'])) {
 
 </head>
 
-<body style="background-color:aliceblue;">
+<body style="background-color:#D8D8D8;">
   <header class="nav">
     <a><i>Store Book</i></a>
   </header>
@@ -62,7 +62,7 @@ if (isset($_POST['cari'])) {
       <?php if (empty($buku)) : ?>
         <tr>
           <td colspan="4">
-            <p>Data mahasiswa tidak ditemukan!!</p>
+            <p>Data buku tidak ditemukan!!</p>
           </td>
         </tr>
       <?php endif; ?>
