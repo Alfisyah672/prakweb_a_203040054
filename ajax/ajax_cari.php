@@ -9,7 +9,7 @@ $mahasiswa = cari($_GET['keyword']);
     <th>#</th>
     <th>Gambar</th>
     <th>Nama</th>
-    <th>Aksi</th>
+    <th>Selengkapnya</th>
   </tr>
 
   <?php if (empty($buku)) : ?>
@@ -27,7 +27,9 @@ $mahasiswa = cari($_GET['keyword']);
       <td><img src="img/<?= $b['gambar']; ?>" width="60"></td>
       <td><?= $b['judul']; ?></td>
       <td>
-        <a href="detail.php?id=<?= $b['id']; ?>" style="color: black;">Lihat Detail</a>
+        <button class="btn-detail">
+          <a href="detail.php?id=<?= $b['id']; ?>" style="color: black;">Lihat Detail</a>
+        </button>
       </td>
     </tr>
   <?php endforeach; ?>

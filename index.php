@@ -43,10 +43,10 @@ if (isset($_POST['cari'])) {
   </button>
   <br><br>
 
-  <!-- <form action="" method="POST">
+  <form action="" method="POST" style="margin-left:450px">
     <input type="text" name="keyword" size="30" placeholder="Masukan Keyword Pencarian" autocomplete="off" class="keyword">
     <button type="submit" name="cari" class="tombol-cari">Cari!</button>
-  </form> -->
+  </form>
   <br>
 
   <div class="container">
