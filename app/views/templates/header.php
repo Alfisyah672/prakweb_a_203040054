@@ -20,10 +20,16 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="<?= BASEURL; ?>">Home</a>
           </li>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="<?= BASEURL; ?>/about">About</a></li>
-          </ul>
+        </ul>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="<?= BASEURL; ?>/mahasiswa">Mahasiswa</a>
           </li>
+        </ul>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="<?= BASEURL; ?>/about">About</a></li>
+        </ul>
+        </li>
         </ul>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
